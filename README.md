@@ -1,8 +1,13 @@
 # AnotaAi
 
+# Funcionamento 
+[projeto-rodando.webm](https://github.com/user-attachments/assets/0957ed44-1b4c-4d10-b3ba-1936a29876d2)
+
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
 
 ## Development server
+
 
 To start a local development server, run:
 
