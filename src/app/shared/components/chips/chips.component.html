@@ -1,0 +1,11 @@
+@for (chip of items(); track $index) {
+  <button
+    (click)="toggleChip(chip.value)"
+    [class.selected]="selectedChipsList.includes(chip.value)"
+    [style.backgroundColor]="
+      selectedChipsList.includes(chip.value) ? chip.color : ''
+    "
+  >
+    {{ chip.label }}
+  </button>
+}

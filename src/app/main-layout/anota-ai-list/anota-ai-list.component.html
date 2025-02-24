@@ -1,0 +1,18 @@
+<app-search-input
+  [searchQuery]="searchQuery"
+  (searchChange)="onSearchChange($event)"
+></app-search-input>
+
+<app-chips
+  [items]="chipsList"
+  (selectedChips)="onChipsSelected($event)"
+></app-chips>
+
+<section class="data-list">
+  @for (data of filteredData(); track $index) {
+    <app-card-anota-ai
+      [info]="data"
+      (removeDataId)="onRemoveDataId($event)"
+    ></app-card-anota-ai>
+  }
+</section>

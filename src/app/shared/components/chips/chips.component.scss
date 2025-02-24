@@ -1,0 +1,31 @@
+:host {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 22rem;
+
+  button {
+    padding: 8px 16px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #c4c0c0;
+    font-weight: 500;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+    flex: 1;
+  }
+
+  button:hover {
+    background-color: #a3a2a2;
+    color: #fff;
+  }
+
+  .selected {
+    color: #fff;
+  }
+}

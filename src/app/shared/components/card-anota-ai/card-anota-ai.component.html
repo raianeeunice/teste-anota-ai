@@ -1,0 +1,15 @@
+@if (info) {
+  <section class="card">
+    <app-button-remove (click)="removeDataId.emit(info.id)"></app-button-remove>
+
+    <section class="header">
+      <img [src]="info.img" alt="" />
+      <app-badge [typeData]="info.type"></app-badge>
+    </section>
+
+    <section class="body">
+      <h2 class="title">{{ info.title }}</h2>
+      <p class="description">{{ info.description }}</p>
+    </section>
+  </section>
+}
