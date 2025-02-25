@@ -11,5 +11,15 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-top: 24px;
+  }
+
+  .empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem;
+    color: #a5a3a3;
+    font-weight: 600;
   }
 }

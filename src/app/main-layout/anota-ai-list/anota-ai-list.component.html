@@ -14,5 +14,9 @@
       [info]="data"
       (removeDataId)="onRemoveDataId($event)"
     ></app-card-anota-ai>
+  } @empty {
+    <div class="empty">
+      <p>No results found for this search.</p>
+    </div>
   }
 </section>
